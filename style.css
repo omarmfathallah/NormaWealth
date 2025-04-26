@@ -1,0 +1,40 @@
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #121212;
+  color: white;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+}
+p {
+  font-size: 1.1rem;
+}
+.navbar, footer {
+  background-color: #0d0d0d;
+}
+
+/* Smooth Scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Scroll-to-Top Button */
+#scrollToTopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 15px;
+  font-size: 24px;
+  cursor: pointer;
+  display: none;
+  transition: all 0.3s ease;
+}
+
+#scrollToTopBtn:hover {
+  background-color: #555;
+}
